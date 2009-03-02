@@ -17,6 +17,7 @@
 		4DA7E49A0ACC9AEB00B17D13 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		4DA7E49B0ACC9AEB00B17D13 /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5E29503AEDE5A03A81C6F /* RubyCocoa.framework */; };
 		667FC8F60F5AF1EF007A4E35 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667FC8F50F5AF1EF007A4E35 /* WebKit.framework */; };
+		667FC9430F5B6EED007A4E35 /* BrowserWindowController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 667FC9420F5B6EED007A4E35 /* BrowserWindowController.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		4DA7E49F0ACC9AEB00B17D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA7E4A00ACC9AEB00B17D13 /* Trifle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trifle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667FC8F50F5AF1EF007A4E35 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		667FC9420F5B6EED007A4E35 /* BrowserWindowController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = BrowserWindowController.rb; sourceTree = "<group>"; };
 		E8F5E29503AEDE5A03A81C6F /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = /System/Library/Frameworks/RubyCocoa.framework; sourceTree = "<absolute>"; };
 		E8F5E29F03AEDEA503A81C6F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		E8F5E2A103AEDEBE03A81C6F /* MyDocument.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = MyDocument.rb; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				667FC9420F5B6EED007A4E35 /* BrowserWindowController.rb */,
 				E8F5E2A103AEDEBE03A81C6F /* MyDocument.rb */,
 			);
 			name = Classes;
@@ -187,6 +190,7 @@
 				4DA7E4940ACC9AEB00B17D13 /* InfoPlist.strings in Resources */,
 				4DA7E4950ACC9AEB00B17D13 /* rb_main.rb in Resources */,
 				4DA7E4960ACC9AEB00B17D13 /* MyDocument.rb in Resources */,
+				667FC9430F5B6EED007A4E35 /* BrowserWindowController.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
