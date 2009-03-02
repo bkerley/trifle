@@ -9,7 +9,7 @@
 require 'osx/cocoa'
 
 class BrowserWindowController < OSX::NSWindowController
-	ib_outlet :addressBar, :addressOutput, :webView
+	ib_outlet :addressBar, :webView
 	ib_action :addressEntered
 	
 	def awakeFromNib()
@@ -19,8 +19,7 @@ class BrowserWindowController < OSX::NSWindowController
 	def addressEntered(sender)
 		user_address = sender.stringValue.to_s
 		fixed_up_address = fixup_address user_address
-		@addressOutput.setStringValue fixed_up_address
-		@webView.setMainFrameURL_ fixed_up_address
+		@webView.setMainFrameURL fixed_up_address
 	end
 	
 	private
